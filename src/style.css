@@ -1,0 +1,30 @@
+/* 在styles.css或App.css中 */
+:root {
+    --primary-color: #495E57; /* 深绿色 */
+    --secondary-color: #F4CE14; /* 黄色 */
+    --accent-color-1: #EE9972; /* 浅橙色 */
+    --accent-color-2: #FBDAAB; /* 肤色 */
+    --text-dark: #333333; /* 暗色文字 */
+    --text-light: #EDEFEE; /* 浅色文字 */
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&family=Karla:wght@400;700&display=swap');
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+.header-title {
+  font-family: 'Markazi Text', serif;
+  font-size: 64px; /* 或根据实际需要调整大小 */
+}
+
+.section-title {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
